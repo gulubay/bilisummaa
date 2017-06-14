@@ -1,0 +1,120 @@
+
+
+
+
+#blackline{
+	background: #000;
+}
+
+.full-width{
+	width: 100%;
+}
+
+.social-desktop-header-secondary a:hover{
+	color: #26c356;
+	transition:0.3s;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	cursor: pointer;
+}
+.social-desktop-header-secondary a{
+	color: #000;
+	font-size: 1em;
+	padding-left: 10px;
+	/*margin-top: 36px;*/
+}
+.social-desktop-header-secondary{
+	display: none;
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 15px;
+
+}
+
+#secondary-icon:hover{
+	color: #26c356;
+	transition:0.3s;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	cursor: pointer;
+}
+#secondary-icon{
+	color: black;
+	font-size: 1em;
+	/*padding: 10px;*/
+	/*padding-top: 25px;*/
+	/*padding-right: 10px;*/
+}
+
+.container .shopIcon{
+	padding-top: 10px;
+	text-align: right;
+}
+
+
+.secondaryHome-h1 h1{
+	font-size: 1em;
+	color: #000;
+	transition:0.3s;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+}
+
+.secondaryHome-h1{
+	/*padding: 0 10px;
+	padding-top: 35px;
+	padding-bottom: 45px;*/
+	text-align: center;
+	padding-top: 10px;
+	
+	/*display: inline-block;
+	text-align: center;*/
+}
+.secondaryHome-h1 h1:hover{
+	color:#26c356;
+}
+.secondaryHome-h1:hover{
+	text-decoration:none;
+}
+
+
+.about-wrap{
+	margin: 0 auto;
+	margin-top:100px;
+
+}
+
+
+
+@media (min-width: 992px){
+	.secondaryHome-h1 h1{
+	margin-left: 100px;
+}
+}
+@media (min-width: 768px){
+	.social-desktop-header-secondary{
+	display: block;
+}
+
+	#secondary-icon{
+	font-size: 2em;
+}
+
+}
+@media (min-width: 700px){
+
+	.container .shopIcon{
+	
+	padding-top: 40px;
+
+
+}
+.secondaryHome-h1 h1{
+	font-size: 1.5em;
+}
+.secondaryHome-h1{
+	padding-top: 40px;
+	font-size: 1.5em;
+}
+
+}
