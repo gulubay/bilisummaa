@@ -41,3 +41,7 @@
 				</div>
 			</div>			
 </footer>
+
+ {% for script in layout.head %}
+    {% include {{ script }} %}
+  {% endfor %}
