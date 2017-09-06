@@ -1,0 +1,30 @@
+---
+head:
+  snipcart.html
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <!-- {% include header.html %} -->
+	<section id="home">
+    	{% include headpage.html %}
+    </section>
+    	{% include homesections.html %}
+	
+
+    <div class="page-content">
+
+      {{ content }}
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,20 @@
+<div class="product">
+
+  <a class="product" href="{{ product.url }}">
+    <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
+    <p>{{ product.name }}</p>
+  </a>
+
+  <button class="snipcart-add-item" id="my-button"
+    data-item-name="{{ product.name }}"
+    data-item-id="{{ product.sku }}"
+    data-item-image="{{ product.image }}" 
+    data-item-url="{{ site.baseurl }}"
+    data-item-price="{{ product.price }}"
+    data-item-weight="{{ product.weight }}"
+    data-item-custom2-name="{{product.customtype}}"
+    data-item-custom2-options="{{product.sizes}}">
+     ${{ product.price }}<span id="addIcon"> &#xf290; </span>
+  </button>
+
+</div>

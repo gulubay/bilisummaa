@@ -1,0 +1,83 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/*@include font-face(Samplinoff, fonts/Samplinoff, null, null, woff);*/
+
+/*@font-face{
+	font-family: 'Nexa';
+	src: url("../styles/nexa_bold.otf") format("opentype");
+}
+*/
+/*@include font-face("Nexa", font-files("nexa_bold.otf"));*/
+
+/*@mixin embed-font($font-name, $font-filepath-and-name){
+  @font-face {
+    font-family: Nexa;
+    src: url("nexa_bold.otf")format('opentype');
+    }
+}
+
+@include embed-font("Entypo", "icon-font/entypo");
+%icon-font {
+    font-family: "Entypo";
+}*/
+
+/*@import url("nexa_bold.otf");*/
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('nexa_bold.otf') format('opentype');
+}
+
+$bodyFontFamily: 'Nexa';
+
+// Our variables
+$base-font-family: $bodyFontFamily;
+$base-font-size:   22px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #26c356;
+$background-color: #fdfdfd;
+$brand-color:      #26c356;
+// $brand-color-dark: darken(#brand-color, 25%);
+
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "lightbox"
+;
