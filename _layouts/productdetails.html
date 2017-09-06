@@ -1,0 +1,113 @@
+---
+layout: page
+head:
+  snipcart.html
+---
+<div class="product-details">
+  
+  <!-- lightbox  -->
+  
+ <!--  <div class="row">
+      <div class="column">
+        <img src="{{ page.image }}"onclick="openModal();currentSlide(1)" class="hover-shadow details-pic" >
+      </div>
+      <div class="column">
+        <img src="{{ page.image }}" onclick="openModal();currentSlide(2)" class="hover-shadow details-pic">
+      </div>
+      <div class="column">
+        <img src="{{ page.image }}" onclick="openModal();currentSlide(3)" class="hover-shadow details-pic">
+      </div>
+  </div> -->
+
+  <!-- <div id="myModal" class="modal"> -->
+  
+  <div class="container">
+  <div class="row">
+    
+      <div class="col-12 col-md-2">
+        <div id="container">
+    <div id="row">
+        <div class="column col-3 col-md-12">
+          <img class="demo" src="{{ page.image }}" onclick="currentSlide(1)" alt="Nature">
+        </div>
+
+        <div class="column col-3 col-md-12">
+          <img class="demo" src="{{ page.image2 }}" onclick="currentSlide(2)" alt="Trolltunga">
+        </div>
+
+        <div class="column col-3 col-md-12">
+          <img class="demo" src="{{ page.image3 }}" onclick="currentSlide(3)" alt="Mountains">
+        </div>
+    </div>
+    </div>
+    </div>
+
+  <div class="modal-content col-12 col-md-5 col-lg-6">
+
+    <div class="mySlides" style="display:block;">
+      <div class="numbertext">1 / 3</div>
+        <img src="{{ page.image }}" style="width:100%; ">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+        <img src="{{ page.image2 }}" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+        <img src="{{ page.image3 }}" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+   <!--  <div class="caption-container">
+      <p id="caption"></p>
+    </div> -->
+
+    
+  </div>
+  
+
+<!-- </div> -->
+
+
+  <!-- <img src="{{ page.image }}" alt="{{ page.name }}" class="details-pic"/> -->
+
+  <div class="product-description col-12 col-md-4 col-lg-3">
+    <p>{{ page.name }}</p>
+
+    <p style="font-family:'Nexa';">
+      ${{ page.price }}
+    </p>
+    <p style="font-size:18px;">
+      Color: <span style="font-family:'Nexa'; font-weight:400;">{{ page.color}}</span>
+    </p>
+    {{page.content}}
+
+    <button class="snipcart-add-item" id="my-button"
+      data-item-name="{{ page.name }}"
+      data-item-id="{{ page.sku }}"
+      data-item-image="{{ page.image }}"
+      data-item-url="{{ site.baseurl }}"
+      data-item-price="{{ page.price }}"
+      data-item-weight="{{ page.weight }}"
+      data-item-custom2-name="{{page.customtype}}"
+      data-item-custom2-options="{{page.sizes}}">
+      ADD TO CART
+    </button>
+  </div>
+</div>
+</div>
+
+
+</div>
+
+<div class="container" >
+  <h2 style="font-family:'Nexa';">Product Detail</h2>
+{% for section in page.sections %}
+<div>{{ section | textilize }}</div>
+{% endfor %}
+</div>
+
