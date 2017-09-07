@@ -9,7 +9,7 @@ image3: /images/oro-odaa-hat/hat_3.png
 color: Black
 weight: 60
 layout: productdetails
-permalink: /oromia-odaa-hat
+permalink: /oromia-odaa-hat/
 sections:
 - 6 Panel hat features the map of Oromia with the Odaa tree embroidery on the front.
 - Constructed from 100% Cotton for a soft breathable feel.
