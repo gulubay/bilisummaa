@@ -1,7 +1,7 @@
 ---
 layout: products
 title: SHOP | BILISUMMAA
-permalink: /shop/
+permalink: /shop
 ---
 
 {% for product in site.products %}
