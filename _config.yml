@@ -38,9 +38,9 @@ collections:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  # - README.md
-  # - Gemfile
-  # - Gemfile.lock
+   - README.md
+   - Gemfile
+   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
