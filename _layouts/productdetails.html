@@ -50,11 +50,11 @@ head:
   </div>
 
   <div class="product-description col-12 col-md-4 col-lg-3">
-    <h3 style="font-family:'Nexa'; font-size='18px';">{{ page.name }}</h3>
+    <h4>{{ page.name }}</h4>
 
-    <h6 style="font-size:'12px';">
-      ${{ page.price }} CAD
-    </h6>
+    <p>
+      ${{ page.price }} CAD  <img src="../images/flags.png" class="flag flag-ca"/>
+    </p>
     <p style="font-size:18px;">
       Color: <span style="font-family:'Nexa'; font-weight:400;">{{ page.color}}</span>
     </p>
@@ -67,7 +67,7 @@ head:
       data-item-url="{{ site.url }}{{ page.url }}"
       data-item-price="{{ page.price }}"
       data-item-weight="{{ page.weight }}">
-      ADD TO CART
+      ADD TO CART 
     </button>
   </div>
 </div>

@@ -16,7 +16,7 @@ permalink: /contact/
 		    			<input class="subscribe-input col-12" type="text" name="name" placeholder="Name">
 		    			<input class="subscribe-input col-12" type="email" placeholder="Enter your email address" name="_replyto">
 		    			<textarea name="message" placeholder="Message" class="subscribe-input col-12" style="height:190px;"></textarea>
-						<input class="subscribe-button col-4" type="submit" value="Contact Us" placeholder="Subscribe">
+						<input class="subscribe-button col-4" type="submit" value="Subcribe" placeholder="Subscribe">
 					</form>
 				</div>
 				</div>
