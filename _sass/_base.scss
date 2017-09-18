@@ -81,12 +81,23 @@ dl, dd, ol, ul, figure {
   // font-family:$base-font-family;
 }
 
+
 .product-description{
   width: 400px;
   padding: 25px;
   margin: 25px;
   // background-color: #CFD8DC;
   font-size: 20px;
+
+}
+
+.product-description p{
+  font-size: 15px;
+  font-family:'Nexa';
+  
+}
+.product-description h4{
+  font-family:'Nexa';
 }
 
 .product-details{
@@ -106,6 +117,8 @@ dl, dd, ol, ul, figure {
   // font-weight: 200;
     // line-height: normal;
 }
+
+
 
 @media (min-width: 768px){
 .products{
@@ -225,6 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 .product p{
     color: #000;
     text-decoration: none;
+    margin:0;
 
     // &:visited {
     //     color: darken($brand-color, 15%);
@@ -234,6 +248,16 @@ h1, h2, h3, h4, h5, h6 {
         color: $text-color;
         text-decoration: underline;
     }
+}
+
+#shop-price{
+  margin-bottom:16px;
+  font-size: 14px;
+  color: grey;
+}
+.flag{
+  height:21px;
+
 }
 
 

@@ -89,6 +89,13 @@ dl, dd, ol, ul, figure {
   margin: 25px;
   font-size: 20px; }
 
+.product-description p {
+  font-size: 15px;
+  font-family: 'Nexa'; }
+
+.product-description h4 {
+  font-family: 'Nexa'; }
+
 .product-details {
   display: flex;
   flex-direction: row;
@@ -189,10 +196,19 @@ h1, h2, h3, h4, h5, h6 {
  */
 .product p {
   color: #000;
-  text-decoration: none; }
+  text-decoration: none;
+  margin: 0; }
   .product p:hover {
     color: #26c356;
     text-decoration: underline; }
+
+#shop-price {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: grey; }
+
+.flag {
+  height: 21px; }
 
 /**
  * Blockquotes
