@@ -4,7 +4,7 @@
     <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
     <p>{{ product.name }}</p>
   </a>
-
+   <div id="shop-price">${{ product.price }} CAD <img src="../images/flags.png" class="flag flag-ca"/></div>
   <button class="snipcart-add-item" id="my-button"
     data-item-name="{{ product.name }}"
     data-item-id="{{ product.sku }}"
@@ -12,7 +12,7 @@
     data-item-url="{{ site.url }}{{ page.permalink }}"
     data-item-price="{{ product.price }}"
     data-item-weight="{{ product.weight }}">
-     ${{ product.price }}CAD<span id="addIcon"> &#xf290; </span>
+     Add To Cart<span id="addIcon"> &#xf290; </span> 
   </button>
 
 </div>
