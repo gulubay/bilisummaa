@@ -3,6 +3,7 @@ name: ONB HOODIE BLACK
 price: 49.99
 slug: oromia-bilisoomti-hoodie
 sku: ONBBH
+weight: 480
 image: /images/onb-hoodie/onbb1.png
 image2: /images/onb-hoodie/onbb2.png
 image3: /images/onb-hoodie/onbb3.png
