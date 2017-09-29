@@ -1,7 +1,7 @@
 ---
 layout: products
 title: SHOP | BILISUMMAA
-permalink: /shop/
+permalink: /collection/
 image-ca: images/flags.png
 ---
 
