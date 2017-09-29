@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.bilisummaa.shop" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: bilisummaa_fits
 # github_username:  jekyll
-api_key: "NWU3OTc3ZWYtNTYwNi00OWMzLTg4ZjktMDdiYzFlMWQ5OTJjNjM2MzIyOTU3ODU3NTEyNjY4"
+api_key: "Y2ZhODhkMjItNTgyYy00ZTE2LThjMjAtY2QwNmRjMGU4M2MyNjM2MzIyOTU3ODU3NTEyNjY4"
 
 # Build settings
 markdown: kramdown
