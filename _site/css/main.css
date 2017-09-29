@@ -83,11 +83,17 @@ dl, dd, ol, ul, figure {
   padding: 0 6px;
   position: absolute; }
 
+.homecart-counter {
+  margin-left: 34px; }
+
 .product-description {
   width: 400px;
   padding: 25px;
   margin: 25px;
   font-size: 20px; }
+
+#sizechart {
+  padding-top: 50px; }
 
 .product-description p {
   font-size: 15px;
@@ -280,12 +286,21 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+#my-size {
+  background: none;
+  border: 1px solid #000;
+  color: #000; }
+
 .thumbnail {
   height: 200px; }
 
 .details-pic {
   width: 500px; }
 
+@media (min-width: 768px) and (max-width: 1092px) {
+  .product {
+    padding: 0;
+    padding-top: 35px; } }
 /**
  * Site header
  */
@@ -309,7 +324,7 @@ section {
   overflow: hidden;
   height: 640px;
   width: 100%;
-  background: url("../images/homeBG.jpg");
+  background: url("../images/homebg-2.png");
   background-size: cover;
   background-position: 60% 75%;
   /*line-height: 100vh;*/ }
@@ -459,13 +474,8 @@ section {
   max-height: 100%;
   text-align: center; }
 
-.overlay {
-  height: 640px;
-  width: 100%;
-  position: absolute; }
-
 .purple {
-  background: rgba(155, 170, 248, 0.5); }
+  background: rgba(0, 0, 0, 0.1); }
 
 /**
  * Site footer
@@ -782,7 +792,7 @@ padding: 0 10%;
   color: black;
   font-size: 1em;
   /*padding: 10px;*/
-  /*padding-top: 25px;*/
+  padding-top: 19px;
   /*padding-right: 10px;*/ }
 
 .container .shopIcon {
@@ -793,6 +803,8 @@ padding: 0 10%;
   font-size: 1em;
   color: #000;
   transition: 0.3s;
+  margin-top: 15px;
+  margin-left: 30px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s; }
 
@@ -823,17 +835,20 @@ padding: 0 10%;
     display: block; }
 
   #secondary-icon {
-    font-size: 2em; } }
+    font-size: 2em; }
+
+  .secondaryHome-h1 h1 {
+    font-size: 1.5em !important; } }
 @media (min-width: 700px) {
   .container .shopIcon {
     padding-top: 40px; }
 
   .secondaryHome-h1 h1 {
-    font-size: 1.5em; }
+    font-size: 1.2em; }
 
   .secondaryHome-h1 {
     padding-top: 40px;
-    font-size: 1.5em; } }
+    font-size: 1.2em; } }
  /**
 * CONTACT PAGE |||||||||||||||||||||||||
 */
@@ -1176,6 +1191,7 @@ padding: 0 10%;
   background-color: #fefefe;
   padding: 0;
   width: 50%;
+  height: 50%;
   max-width: 1200px;
   display: block;
   border: none !important; }

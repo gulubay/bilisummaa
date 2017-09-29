@@ -1,20 +1,34 @@
-<!-- ---
+---
 name: ONB HOODIE BLACK
-price: 29.99
+price: 49.99
 slug: oromia-bilisoomti-hoodie
 sku: ONBBH
-image: /images/IMG_20170823_123949.jpg
+image: /images/onb-hoodie/onbb1.png
+image2: /images/onb-hoodie/onbb2.png
+image3: /images/onb-hoodie/onbb3.png
+sizechart: /images/size-chart.png
 layout: productdetails
 permalink: /onb-hoodie-black/
 customtype: Size
-sizes: Medium|Large
+sizes: X-Small|Small
 color: Black
+sections: 
+- High quality loose pullover hoodie with kangaroo pouch.
+- + Drawstring hood
+- + fits generously over the body
+- + Over-the-head style
+
+limited_stock: |
+  Limited Stock
 ---
- -->
+
 
 <select id="my-size">
-	  <option>Medium</option>
-	  <option>Large</option>
+	  <option>X-Small</option>
+	  <option>Small</option>
+	  <option disabled>Medium</option>
+	  <option disabled>Large</option>
+	  <option disabled>X-Large</option>
 </select>
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper ante non vehicula eleifend.

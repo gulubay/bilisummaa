@@ -23,11 +23,11 @@ function closeNav() {
 
 
 // SIZES
-// $(document).ready(function () {
-// $('#my-size').change(function() {
-//     $('#my-button').data('item-custom2-value', $(this).val());
-// });
-//  });
+$(document).ready(function () {
+$('#my-size').change(function() {
+    $('#my-button').data('item-custom2-value', $(this).val());
+});
+ });
 
 
 

@@ -81,6 +81,9 @@ dl, dd, ol, ul, figure {
   // font-family:$base-font-family;
 }
 
+.homecart-counter{
+  margin-left:34px;
+}
 
 .product-description{
   width: 400px;
@@ -91,6 +94,9 @@ dl, dd, ol, ul, figure {
 
 }
 
+#sizechart{
+  padding-top: 50px;
+}
 .product-description p{
   font-size: 15px;
   font-family:'Nexa';
@@ -361,12 +367,27 @@ pre {
     }
 }
 
+#my-size{
+    background: none;
+    border: 1px solid #000;
+    color: #000;
+}
 
 .thumbnail {
   height: 200px;
   // width: 200px;
 }
+
 .details-pic {
   width: 500px;
   // width: 200px;
+}
+
+
+@media (min-width:768px) and (max-width: 1092px){
+.product {
+  padding: 0;
+  padding-top:35px;
+  // width: 200px;
+}
 }

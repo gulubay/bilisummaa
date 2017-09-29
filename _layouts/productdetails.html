@@ -55,9 +55,11 @@ head:
     <p>
       ${{ page.price }} CAD  <img src="../images/flags.png" class="flag flag-ca"/>
     </p>
+
     <p style="font-size:18px;">
       Color: <span style="font-family:'Nexa'; font-weight:400;">{{ page.color}}</span>
     </p>
+    <p style="color:red; font-size:18px;">{{page.limited_stock | textilize}}</p>
     {{page.content}}
 
     <button class="snipcart-add-item" id="my-button"
@@ -65,6 +67,8 @@ head:
       data-item-id="{{ page.sku }}"
       data-item-image="{{ page.image }}"
       data-item-url="{{ site.url }}{{ page.url }}"
+      data-item-custom2-name="{{page.customtype}}"
+      data-item-custom2-options="{{page.sizes}}"
       data-item-price="{{ page.price }}"
       data-item-weight="{{ page.weight }}">
       ADD TO CART 
@@ -81,5 +85,8 @@ head:
 {% for section in page.sections %}
 <div>{{ section | textilize }}</div>
 {% endfor %}
+<img id="sizechart" src="{{ page.sizechart }}">
 </div>
+
+
 

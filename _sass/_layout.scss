@@ -31,10 +31,11 @@ section{
     overflow: hidden;
     height: 640px;
     width: 100%;
-    background: url('../images/homeBG.jpg');
+    background: url('../images/homebg-2.png');
     background-size: cover;
     background-position: 60% 75%;
     /*line-height: 100vh;*/
+    
     
 }
 #mainWrapper{
@@ -206,13 +207,13 @@ section{
     max-height: 100%;
     text-align: center;
 }
-.overlay{
-    height: 640px;
-    width: 100%;
-    position: absolute;
-}
+// .overlay{
+//     height: 640px;
+//     width: 100%;
+//     position: absolute;
+// }
 .purple{
-    background: rgba(155,170,248,0.5);
+    background: rgba(0,0,0,0.1);
 }
 
 
@@ -790,7 +791,7 @@ padding: 0 10%;
     color: black;
     font-size: 1em;
     /*padding: 10px;*/
-    /*padding-top: 25px;*/
+    padding-top: 19px;
     /*padding-right: 10px;*/
 }
 
@@ -804,6 +805,8 @@ padding: 0 10%;
     font-size: 1em;
     color: #000;
     transition:0.3s;
+    margin-top: 15px;
+    margin-left: 30px;
     -webkit-transition:0.3s;
     -moz-transition:0.3s;
 }
@@ -840,6 +843,7 @@ padding: 0 10%;
     margin-left: 100px;
 }
 }
+
 @media (min-width: 768px){
     .social-desktop-header-secondary{
     display: block;
@@ -848,6 +852,10 @@ padding: 0 10%;
     #secondary-icon{
     font-size: 2em;
 }
+.secondaryHome-h1 h1{
+    font-size: 1.5em !important;
+}
+
 
 }
 @media (min-width: 700px){
@@ -858,13 +866,15 @@ padding: 0 10%;
 
 
 }
+
 .secondaryHome-h1 h1{
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .secondaryHome-h1{
     padding-top: 40px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
+
 
 }
 
