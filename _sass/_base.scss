@@ -143,7 +143,7 @@ dl, dd, ol, ul, figure {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 35px;
+  padding-top: 35px;
       padding-bottom: 0;
       font-family:$base-font-family;
       -webkit-transition:0.3s;
@@ -388,6 +388,12 @@ pre {
 .product {
   padding: 0;
   padding-top:35px;
+  // width: 200px;
+}
+}
+@media (min-width: 1092px){
+.product {
+  padding:35px;
   // width: 200px;
 }
 }
