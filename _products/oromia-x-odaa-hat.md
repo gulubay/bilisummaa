@@ -1,6 +1,7 @@
 ---
 name: OROMIA X ODAA HATS
 price: 23.99
+sale: 20.00
 slug: oromia-odaa-hat
 sku: OOH
 image: /images/oro-odaa-hat/hat_1.png
@@ -16,6 +17,7 @@ sections:
 
 -  + One size fits all (adjustable)
 -  + Brass buckle for elegance.
+
 ---
  
 

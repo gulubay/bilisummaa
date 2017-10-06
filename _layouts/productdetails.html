@@ -52,14 +52,20 @@ head:
   <div class="product-description col-12 col-md-4 col-lg-3">
     <h4>{{ page.name }}</h4>
 
+    {% if page.sale %} <span style="text-decoration:line-through;"> {% endif %}
     <p>
       ${{ page.price }} CAD  <img src="../images/flags.png" class="flag flag-ca"/>
     </p>
+    {% if page.sale %} </span> {% endif %}
+
+    {% if page.sale %}
+   <h6 style="color:red;">${{ page.sale }}0 CAD</h6>
+   {% endif %}
 
     <p style="font-size:18px;">
       Color: <span style="font-family:'Nexa'; font-weight:400;">{{ page.color}}</span>
     </p>
-    <p style="color:red; font-size:18px;">{{page.limited_stock | textilize}}</p>
+    <p style="color:brown; font-size:18px;">{{page.limited_stock | textilize}}</p>
     {{page.content}}
 
     <button class="snipcart-add-item" id="my-button"
@@ -69,7 +75,7 @@ head:
       data-item-url="{{ site.url }}{{ page.url }}"
       data-item-custom2-name="{{page.customtype}}"
       data-item-custom2-options="{{page.sizes}}"
-      data-item-price="{{ page.price }}"
+      data-item-price="{% if page.sale %}{{ page.sale }}{% else %}{{ page.price }}{% endif %}"
       data-item-weight="{{ page.weight }}">
       ADD TO CART 
     </button>
