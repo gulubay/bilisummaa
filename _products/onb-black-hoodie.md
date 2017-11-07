@@ -11,7 +11,7 @@ sizechart: /images/size-chart.png
 layout: productdetails
 permalink: /onb-hoodie-black/
 customtype: Size
-sizes: X-Small|Small
+sizes: X-Small|Small|Medium
 color: Black
 sections: 
 - High quality loose pullover hoodie with kangaroo pouch.
@@ -19,15 +19,15 @@ sections:
 - + fits generously over the body
 - + Over-the-head style
 
-limited_stock: |
-  Limited Stock
+<!-- limited_stock: |
+  Limited Stock -->
 ---
 
 
 <select id="my-size">
 	  <option>X-Small</option>
 	  <option>Small</option>
-	  <option disabled>Medium</option>
+	  <option>Medium</option>
 	  <option disabled>Large</option>
 	  <option disabled>X-Large</option>
 </select>

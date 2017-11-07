@@ -415,6 +415,10 @@ section {
   background: #64bd64; }
 
 #entershop h3 {
+  border: 5px solid white;
+  width: 300px;
+  padding: 10px;
+  margin: 0 auto;
   margin-top: 50px;
   -webkit-transition: .3s;
   -moz-transition: .3s;
