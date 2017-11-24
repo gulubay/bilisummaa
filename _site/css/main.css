@@ -30,6 +30,12 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
+.snip-layout .snip-actions__link--small {
+  font-size: 17px !important; }
+
+.snip-layout .snip-actions__link, .snip-layout .snip-footer__highlight {
+  color: orange !important; }
+
 .snipcart-checkout {
   margin-right: 15px; }
 
