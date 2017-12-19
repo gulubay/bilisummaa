@@ -39,7 +39,7 @@ $('#my-size').change(function() {
   var feed = new Instafeed({
 	get: 'user',
 	userId: '4792937054',
-	accessToken: '4792937054.a746536.81c1584fa94844b9af47fbbf92526372',
+	accessToken: '4792937054.a746536.49072ffa977f4bf3bf2882f36fe558a5',
 	limit: 60,
 	sortBy: 'most-liked',
 	template: '<div class="col-6 col-lg-3 col-xl-3 col-md-3 col-sm-6 instafeed-img"><a href="{{link}}" target="_blank"><img src="{{image}}" class="img-responsive" /></a></div>',
