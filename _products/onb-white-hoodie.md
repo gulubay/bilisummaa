@@ -1,6 +1,7 @@
 ---
 name: ONB HOODIE WHITE
 price: 49.99
+sale: 35.00
 slug: oromia-bilisoomti-hoodie
 sku: ONBWH
 weight: 480
