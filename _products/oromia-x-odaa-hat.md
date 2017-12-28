@@ -1,7 +1,7 @@
 ---
 name: OROMIA X ODAA HATS
 price: 23.99
-sale: 18.00
+<!-- sale: 18.00 -->
 slug: oromia-odaa-hat
 sku: OOH
 image: /images/oro-odaa-hat/hat_1.png
